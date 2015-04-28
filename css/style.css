@@ -7,9 +7,6 @@ body {
 	color: dimgrey;
     text-align: center;
 	font: 100% TitilliumWeb, Calibri, Lucida Grande;
-/*	background: #E6E6E6;*/
-	
-/*	background: #000000;*/
 	background-image: url("../img/background.jpg");
 	margin: 0 auto;
 	min-width: 720px;
@@ -17,7 +14,6 @@ body {
 	}
 
 header {
-/*	color: dimgrey;*/
     margin-top: 30px;
 	margin-bottom: 30px;
 	text-align: center;
@@ -92,8 +88,6 @@ notice {
 canvas {
     border: 1px solid #aaa;
     border-radius: 15px;
-/*    height: 515px;*/
     margin: 20px 20px;
     overflow: hidden;
-/*    width: 690px;*/
 }
