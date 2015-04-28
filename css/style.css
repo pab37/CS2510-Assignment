@@ -1,0 +1,99 @@
+@font-face {
+	font-family: TitilliumWeb;
+	src: url(../font/TitilliumWeb-Regular.ttf);
+}
+		
+body {
+	color: dimgrey;
+    text-align: center;
+	font: 100% TitilliumWeb, Calibri, Lucida Grande;
+/*	background: #E6E6E6;*/
+	
+/*	background: #000000;*/
+	background-image: url("../img/background.jpg");
+	margin: 0 auto;
+	min-width: 720px;
+	width: 60%;
+	}
+
+header {
+/*	color: dimgrey;*/
+    margin-top: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+	
+nav {
+	text-align: center;
+	margin-left: -40px;
+    font-weight: bold;
+}
+
+nav ul li {
+    display: inline-block;
+    width: 147px;
+	padding: 10px;
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: inherit;
+}
+
+li.menu {
+	background-color: #F0F0F0;
+	color: #000000;
+}
+	
+li.menu:hover, li.current {
+	background-color: #33363B;
+	color: #FFFFFF;
+}
+
+li.current:hover {
+    background-color: #4a4e55;
+	color: #FFFFFF;
+}
+
+main {
+	margin-top: 40px;
+    margin-bottom: 40px;
+	min-height: 350px;
+	height: auto;
+}
+	
+footer {
+	font: 80% TitilliumWeb, Calibri, Lucida Grande;
+	text-align: center;
+}
+
+notice {
+    font: 78% TitilliumWeb, Calibri, Lucida Grande;
+   	color: red;
+	margin-top: 40px;
+	text-align: center;
+}
+	
+#lastModified {
+	text-align: center;
+	width: 9em;
+	position: fixed;
+	right: 40px;
+	bottom: 20px;
+	margin-left: 20px;
+}
+
+.date {
+	width: 17em;
+}
+
+canvas {
+    border: 1px solid #aaa;
+    border-radius: 15px;
+/*    height: 515px;*/
+    margin: 20px 20px;
+    overflow: hidden;
+/*    width: 690px;*/
+}

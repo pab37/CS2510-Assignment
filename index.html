@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Space Flight: HTML5 Mission</title>
+        <link rel="stylesheet" href="css/style.css">
+		<script src="js/main.js"></script>
+		<script src="js/objects.js"></script>
+		<script src="js/game.js"></script>
+		<script src="js/control.js"></script>
+		<script src="js/storage.js"></script>
+
+    </head>
+    
+    <body onload="init()">
+        <header>
+            <h1>Space Flight: HTML5 Mission</h1>
+        </header>
+        
+        <nav>
+            <ul id="menu">
+                <li class="current"><a href="index.html">Play Game</a></li>
+                <li class="menu"><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+        
+        <main>
+            <canvas id="canvas" width="600" height="800"></canvas>
+        </main>
+        
+        <aside>
+            <p id="lastModified">
+                Last modified date:
+                <script>document.write(document.lastModified);</script>
+            </p>
+        </aside>
+        
+        <footer>
+            <hr>
+            <p>The information provided on this and other pages by me, Pawel Baclawski (pab37@aber.ac.uk),
+                is under my own personal responsibility and not that of Aberystwyth University. Similarly,
+                any opinions expressed are my own and are in no way to be taken as those of A.U.</p>
+        </footer>   
+    </body>
+</html>
